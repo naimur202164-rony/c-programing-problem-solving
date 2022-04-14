@@ -65,19 +65,50 @@
 
 
 
-#include <stdio.h>
+// #include <stdio.h>
+
+// int main(){
+
+//     char ch;
+      
+//     ch='a';
+//     if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
+
+//         printf("%c is vowel");
+
+
+//     }else{
+//         printf("%c is not vowel");
+//     }
+// }
+
+
+// Loops
+
+
+
+#include<stdio.h>
 
 int main(){
 
-    char ch;
-      
-    ch='a';
-    if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
 
-        printf("%c is vowel");
+int x=1;
+
+while (x<=20)
+{
+        printf("%d\n",x);
+            /* code */
+        x=x+1;
 
 
-    }else{
-        printf("%c is not vowel");
-    }
+        if(x>10){
+            break;
+        };
+
+
+        return 0;
+
+
+}
+
 }
